@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+    background-color: #87d9e7;
+    font-family: "Noto Sans", sans-serif;
+}
+header {
+    border-radius: 2px;
+    padding: 10px;
+    padding-top: 15px;
+    margin: 10px 0px;
+    background-color: #fff;
+}
+
+section {
+    border-radius: 2px;
+    padding: 10px;
+    padding-top: 15px;
+    margin: 15px 0px;
+    background-color: #fff;
+}
+
+h1 {
+    letter-spacing: 1px;
+    padding-bottom: 2px;
+}
+
+hr.garis {
+    width: 30px;
+    border: 1px #dfa529 solid;
+}
+
+header span.subtitle {
+    font-weight: 500;
+    padding-top: 50px;
+    font-size: 15px;
+}
+
+/* about */
+
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 5px 0px;
+}
+.about-container img {
+    width: 150px;
+    border-radius: 5px;
+}
+.about-container p {
+    padding-left: 15px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+/* service */
+.service-container {
+    padding: 15px 0px 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.service-container .service-item {
+    width: 48%;
+    padding-bottom: 20px;
+} 
+
+.service-item h4 {
+    letter-spacing: 1px;
+}
+
+/* contact */
+.contact-container {
+    padding: 10px 0px 5px 0px;
+}
+.contact-container .name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-container .name input {
+    width: 49%;
+}
+
+.contact-container input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.contact-container textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+.contact-container .button-submit {
+    width: auto;
+    padding: 5px 10px;
+}
+
+
+
